@@ -1,0 +1,24 @@
+# config/filter_config.yaml
+
+self_filter:
+  ros__parameters:
+    sensor_frame: floating_camera
+    keep_organized: false
+    zero_for_removed_points: false
+    invert: false
+    min_sensor_dist: 0.1
+
+    self_see_links:
+      names:
+        - panda_link0
+        - panda_link1
+        - panda_link2
+        - panda_link3
+        - panda_link4
+        - panda_link5
+        - panda_link6
+        - panda_link7
+        - panda_link8
+        - panda_hand
+        - panda_leftfinger
+        - panda_rightfinger
